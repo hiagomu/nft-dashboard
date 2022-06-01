@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.section-title {
+    width: 90vw;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: start;
+}
+
+.section-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+    color: white;
+
+    padding: 10px;
+
+    border-radius: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.trend-container {
+
+    margin: 60px 0 60px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

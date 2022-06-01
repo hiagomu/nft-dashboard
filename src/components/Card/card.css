@@ -1,0 +1,33 @@
+.container-card {
+    display: flex;
+    justify-content: center;
+
+    width: 230px;
+    height: 300px;
+
+    border-radius: 10px;
+
+    background-color: rgba(22,22,22,0.95);
+}
+
+.container-card li {
+    list-style: none;
+}
+
+.container-card li img {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;  
+}
+
+.container-card li p {
+    width: 200px;
+    height: 50px;
+
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
