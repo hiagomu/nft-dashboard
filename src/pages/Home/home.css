@@ -1,0 +1,52 @@
+.home-container {
+    height: 100vh;
+
+}
+
+.home-container .landing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 94vh;
+}
+
+.home-container .landing-container img {
+    height: 500px;
+    width: 500px;
+
+    margin-right: 100px;
+}
+
+.home-container .landing-container p {
+    font-size: 40px;
+    height: 120px;
+    width: 440px;
+    font-weight: bold;
+    color: white
+}
+
+.home-container .landing-container .explore-button {
+    display: block;
+    cursor: pointer;
+
+    background-color: #ffdf3e;
+    color: black;
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    width: 120px;
+    padding: 8px 0px;
+    margin-top: 20px;
+
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.home-container .landing-container .explore-button:hover {
+    background-color: #ffd500;
+}

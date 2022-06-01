@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/App.css';
 import Home from "./pages/Home/index"
 import Dashboard from './pages/Dashboard';
-import Drops from './pages/Drops'
+import Drops from './pages/Drops/index'
 import Mint from './pages/Mint/index'
 import { BrowserRouter as Router, Routes, Route} from  "react-router-dom"
 
