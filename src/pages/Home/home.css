@@ -1,6 +1,5 @@
 .home-container {
-    height: 100vh;
-
+    height: 88vh;
 }
 
 .home-container .landing-container {
@@ -9,7 +8,7 @@
     justify-content: center;
 
     width: 100vw;
-    height: 94vh;
+    height: 88vh;
 }
 
 .home-container .landing-container img {

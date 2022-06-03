@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Header from "../../components/Header/index"
+import Footer from "../../components/Footer/index"
 import "../Home/home.css"
-import Back from '../../components/Back/index'; 
+import BackgroundParticles from '../../components/BackgroundParticles/index'; 
 import stars from "../../assets/stars.svg"
 
 export default function Home() {
     
     return (
         <div className="home-container">
-                <Back />
+                <BackgroundParticles />
                 <Header />
                 <div className="landing-container">
                     <img src={stars} alt="" />
@@ -18,6 +19,7 @@ export default function Home() {
                         <Link className="explore-button" to="/dashboard">Explore</Link>
                     </div>
                 </div>
+                <Footer />
             </div>
     );
 }
