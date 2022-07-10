@@ -3,7 +3,6 @@ import './styles/App.css';
 import Home from "./pages/Home/index"
 import Dashboard from './pages/Dashboard';
 import Drops from './pages/Drops/index'
-import Mint from './pages/Mint/index'
 import { BrowserRouter as Router, Routes, Route} from  "react-router-dom"
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route  path="/drops" element={<Drops />}></Route>
-          <Route  path="/mint" element={<Mint />}></Route>
         </Routes>
       </div>
     </Router>
